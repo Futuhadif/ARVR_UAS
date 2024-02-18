@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aincraft</title>
+    <meta name="description" content="Aincraft">
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-teleport-controls@0.2.0/dist/aframe-teleport-controls.min.js"></script>
+    <script src="https://unpkg.com/aframe-controller-cursor-component@0.2.2/dist/aframe-controller-cursor-component.min.js"></script>
+    
+  </head>
+  <body>
+    <a-scene avatar-recorder>
+      <a-assets>
+        <video id="video" autoplay loop="true" src="assets/videoplayback (1).mp4"></video>
+        <img id="groundTexture" src="assets/dirt.jpg">
+      </a-assets>
+
+      <a-sky src="#video" radius="45" theta-length="90"></a-sky>
+
+
+      <a-cylinder id="ground" src="#video" radius="50" height="0.1"  static-body></a-cylinder>
+
+     
+      ></a-entity>
+
+      <a-box position="1 1 1"
+      opacity="0.0"
+      sound="src:assets/neraka.mp3; autoplay: true; loop:true;"
+      ></a-box>
+
+      <!-- Camera. -->
+      <a-camera>
+        <a-cursor
+          intersection-spawn="event: click; mixin: voxel"
+        ></a-cursor>
+      </a-camera>
+    </a-scene>
+  </body>
+</html>

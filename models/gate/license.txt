@@ -1,0 +1,11 @@
+Model Information:
+* title:	stone gate
+* source:	https://sketchfab.com/3d-models/stone-gate-d88f01152b924d40908a61e17707aa88
+* author:	minaivalentin (https://sketchfab.com/minaivalentin)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "stone gate" (https://sketchfab.com/3d-models/stone-gate-d88f01152b924d40908a61e17707aa88) by minaivalentin (https://sketchfab.com/minaivalentin) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
